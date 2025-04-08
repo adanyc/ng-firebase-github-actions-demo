@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/ng-kaio-ken/browser",
+    "public": "dist/ng-firebase-github-actions-demo/browser",
     "ignore": [
       "firebase.json",
       "**/.*",

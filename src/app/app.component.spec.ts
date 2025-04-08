@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'ng-kaio-ken' title`, () => {
+  it(`should have the 'ng-firebase-github-actions-demo' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ng-kaio-ken');
+    expect(app.title).toEqual('ng-firebase-github-actions-demo');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, ng-kaio-ken');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, ng-firebase-github-actions-demo');
   });
 });
